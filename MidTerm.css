@@ -1,0 +1,112 @@
+p {
+	color: black;
+}
+
+.h1 {
+	border-bottom: pink 1px solid;
+	padding: 3px;
+	font-family: 'Linux Libertine','Georgia','Times', serif;
+	font-weight: normal;
+}
+
+.footer {
+	padding: none;
+	font-size: 14px
+}
+
+.contents {
+    border: 1px solid pink;
+    background-color: #f8f9fa;
+    padding:5px;
+    display: inline-block;
+}
+
+.Heading2 {
+	 text-align: center;
+}
+
+h1 {
+	border-bottom: pink 1px solid;
+	padding: 3px;
+	font-family: 'Linux Libertine','Georgia','Times', serif;
+	font-weight: normal;
+	color: black;
+}
+
+h2 {
+	font-family: sans-serif;
+	color: black;
+}
+
+.itlaics {
+	text-align: center;
+}
+
+a {
+	color: pink
+ 
+ }
+
+ .column {
+  float: left;
+  width: 40%;
+  border: 1px solid pink;
+  background-color: #f8f9fa;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+ img {
+display: block;
+  margin-left: auto;
+  width: 40%;
+}
+
+.photo-caption {
+text-align: right;
+font-size: 14px
+}
+
+@media (max-width: 1024px) {
+	p {
+		font-size: 40px;
+	}
+} /*ends media query*/
+
+
+@media (max-width: 400px) {
+	p {
+		font-size: 40px;
+	}
+
+.div1 {
+	text-decoration: none;
+}
+
+.div2 {
+	text-decoration: none;
+}
+
+a.Content1:visited
+{
+	color: orange;
+}
+
+a.Content1:hover
+{
+	color: pink;
+}
+
+a.Content1:active
+{
+	color: purple;
+}
+
+a.Content1:
+{
+	color: blue;
+}
